@@ -32,7 +32,7 @@ winner();
 }
 
 
-/////function when we found the winner it will refresh automaticuly
+/////function to found the winner
 
 function reset(n1,n2,n3){
 
@@ -41,12 +41,6 @@ function reset(n1,n2,n3){
     document.getElementById("colone"+n2).style.background="#7FFFD4";
     document.getElementById("colone"+n3).style.background="#7FFFD4";
    
- //// to repeat the element very seconde
-    setInterval(function () {rfresh.innerHTML += "."}, 1000);
-/// and this to reload the game after 4 seconde
- setTimeout(function(){location.reload()},4000)
-
-
 }
 
 
@@ -97,7 +91,6 @@ else if(arr[3]==arr[5]&& arr[5]==arr[7] && arr[5]!= ""){
 
 
 }
-
 
 
 

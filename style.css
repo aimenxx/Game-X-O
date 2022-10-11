@@ -41,3 +41,7 @@ background-image: url(https://wallpaper.dog/large/10743667.jpg);
   p:first-of-type {
     color: lightseagreen;
   }
+  .btn{
+    padding: 14px 40px;
+    border-radius: 3px;
+  }
